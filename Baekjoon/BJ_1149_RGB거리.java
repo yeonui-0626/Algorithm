@@ -39,7 +39,7 @@ DP 문제
  dp[3][0] = Math.min(dp[2][1] ,dp[2][2]) + arr[3][0];
 
  */
-public class BJ_1149 {
+public class BJ_1149_RGB거리 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));

@@ -17,7 +17,7 @@ import java.util.Scanner;
 숫자를 /3 하거나 /2 하거나 -1 한 숫자의 횟수 중 가장 작은 횟수를 선택하여 +1 한다.
 
  */
-public class BJ_1463 {
+public class BJ_1463_1로만들기 {
 
     static final int MAX = 1000000;
     static int[] arr = new int[1000001];
