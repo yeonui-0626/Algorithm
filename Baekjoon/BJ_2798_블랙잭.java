@@ -18,16 +18,16 @@ public class BJ_2798_블랙잭 {
 
         nums = new int[N];
 
-        st = new StringTokenizer(br.readLine()," ");
-        for(int i = 0; i<N;i++){
+        st = new StringTokenizer(br.readLine(), " ");
+        for (int i = 0; i < N; i++) {
             nums[i] = Integer.parseInt(st.nextToken());
         }
 
-        select(0,0,new boolean[N], 0);
+        select(0, 0, new boolean[N], 0);
 
         System.out.println(ans);
 
-
+    }
 
     static void select(int cnt, int idx, boolean[] visited, int sum){
         if(cnt == 3){
