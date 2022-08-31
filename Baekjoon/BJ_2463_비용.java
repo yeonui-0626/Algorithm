@@ -102,7 +102,6 @@ public class BJ_2463_비용 {
         parents[yR] = xR;
         setCnt[xR]+=setCnt[yR];
         return true;
-
     }
 
 }
