@@ -57,7 +57,7 @@ public class BJ_5427_불 {
             System.out.println(fires.size());
             // 상근 위치 표시 X
             map[s.x][s.y] = '.';
-            dfs(s,0 );
+//            dfs(s,0 );
             if(ans != Integer.MAX_VALUE){
                 System.out.println(ans);
             }else{
